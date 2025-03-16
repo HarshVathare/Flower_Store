@@ -98,7 +98,7 @@ if(isset($_GET['delete'])){
       ?>
       <div class="box">
          <div class="price"><?php echo $fetch_products['price']; ?>Rs/-</div>
-         <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
+         <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="" width="250vw">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="details"><?php echo $fetch_products['details']; ?></div>
          <a href="admin_update_product.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>

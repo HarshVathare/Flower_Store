@@ -398,6 +398,19 @@ section{
    width: 100%;
    object-fit: cover;
 }
+/* 
+ .quick-view .box .image{
+   height: 35rem;
+   width: 100%;
+   object-fit: cover;
+} */
+
+
+
+
+
+
+
 
 .products .box-container .box .fa-eye,
 .products .box-container .box .price{
@@ -466,6 +479,7 @@ section{
    height: 33rem;
    border:var(--border);
    border-radius: .5rem;
+   object-fit: cover;
 }
 
 .quick-view form .name{

@@ -72,7 +72,7 @@ if(isset($_POST['update_product'])){
 ?>
 
 <form action="" method="post" enctype="multipart/form-data">
-   <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" class="image"  alt="">
+   <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" class="image"  alt="" width="250vw">
    <input type="hidden" value="<?php echo $fetch_products['id']; ?>" name="update_p_id">
    <input type="hidden" value="<?php echo $fetch_products['image']; ?>" name="update_p_image">
    <input type="text" class="box" value="<?php echo $fetch_products['name']; ?>" required placeholder="update product name" name="name">

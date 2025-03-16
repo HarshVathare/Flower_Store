@@ -90,8 +90,8 @@ if(isset($_POST['add_to_cart'])){
          if(mysqli_num_rows($select_products) > 0){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
     ?>
-    <form action="" method="POST">
-         <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="" class="image">
+    <form action="" method="POST" class="box">
+         <img   src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="" width="250vw" class="image">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price"><?php echo $fetch_products['price']; ?>Rs/-</div>
          <div class="details"><?php echo $fetch_products['details']; ?></div>
